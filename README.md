@@ -13,14 +13,14 @@ Aqui, aplicamos um conceito bem conhecido em engenharia de dados, a **"Arquitetu
 ## 📂 Como o Projeto Está Organizado
 
 A estrutura é bem intuitiva:
-
+.
 ├── bronze/ # Seus dados brutos do IBGE (primeira parada)
 ├── silver/ # Dados limpos e organizados (prontos para análise)
 ├── gold/ # Seus KPIs e métricas de negócio (prontos para uso)
 ├── scripts/
-│ ├── dataloader.py # O "faz-tudo" para carregar e salvar nossos dados
+│ ├── dataloader.py # O "faz-tudo" para carregar e salvar os dados
 │ ├── extractor_sidra.py # Nosso "pescador" de dados na API do SIDRA
-│ ├── pipeline_sidra.py # O "maestro" que orquestra todo o processo (Bronze -> Silver -> Gold)
+│ ├── pipeline_sidra.py # O "maestro" que orquestra todo o processo (Bronze → Silver → Gold)
 │ ├── transformer_data.py # O "organizador" que leva os dados do Bronze para o Silver
 │ └── transformer_gold.py # O "analista" que cria os KPIs do Silver para o Gold
 ├── .gitignore # O que o Git deve ignorar (arquivos temporários, dados grandes, etc.)
