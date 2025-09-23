@@ -1,0 +1,43 @@
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+cover/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.ipynb_checkpoints
+.spyproject/
+
+
+.vscode/
+.idea/
+
+# Dados gerados pela pipeline
+bronze/
+silver/
+gold/
+
+# Arquivos de log
+*.log
+*.txt
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de dados específicos que podem ser gerados
+*.csv
+*.xlsx
