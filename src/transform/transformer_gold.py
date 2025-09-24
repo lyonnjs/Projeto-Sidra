@@ -1,3 +1,5 @@
+import pandas as pd
+
 class TransformerGold:
     def __init__(self, df_silver):
         self.df = df_silver

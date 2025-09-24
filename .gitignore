@@ -35,9 +35,7 @@ gold/
 *.log
 *.txt
 
-# Arquivos temporários
-*.tmp
 
 # Arquivos de dados específicos que podem ser gerados
 *.csv
-*.xlsx
+*.parquet

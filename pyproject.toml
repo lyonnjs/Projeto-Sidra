@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consult-sidra"
+version = "0.1.0"
+description = "Pipeline de dados em arquitetura Medallion (SIDRA/IBGE)"
+authors = [
+  { name="Seu Nome", email="seuemail@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "openpyxl",
+]
+
+[project.scripts]
+sidra-pipeline = "consult_sidra.pipeline_sidra:main"
