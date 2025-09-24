@@ -1,4 +1,5 @@
 
+# Python / Ambientes virtuais
 __pycache__/
 *.pyc
 *.pyo
@@ -10,19 +11,21 @@ venv/
 pip-log.txt
 pip-delete-this-arg.txt
 .tox/
+
+# Testes / Cobertura de código
 .coverage
 .coverage.*
-.hypothesis/
-.pytest_cache/
-cover/
 htmlcov/
+.cover/
+.pytest_cache/
+.hypothesis/
 .mypy_cache/
 .dmypy.json
 .ruff_cache/
-.ipynb_checkpoints
+
+# Notebooks / IDE
+.ipynb_checkpoints/
 .spyproject/
-
-
 .vscode/
 .idea/
 
@@ -31,11 +34,10 @@ bronze/
 silver/
 gold/
 
-# Arquivos de log
+# log temporários
 *.log
-*.txt
-
-
-# Arquivos de dados específicos que podem ser gerados
+# Arquivos de dados
 *.csv
 *.parquet
+
+
